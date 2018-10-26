@@ -15,7 +15,7 @@ class Alidayu
         $this->app_secret = $app_secret;
     }
 
-    public function sendCode($mobile, $code, $app_name='闪趣网络')
+    public function sendCode($mobile, $code, $app_name = '闪趣网络')
     {
         $client = new \TopClient;
         $client->appkey = $this->app_key;
@@ -30,5 +30,4 @@ class Alidayu
         $response = $client->execute($request);
         return $response;
     }
-
 }
