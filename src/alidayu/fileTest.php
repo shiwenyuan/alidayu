@@ -1,6 +1,6 @@
 <?php
     include "TopSdk.php";
-    date_default_timezone_set('Asia/Shanghai'); 
+    date_default_timezone_set('Asia/Shanghai');
 
     $c = new TopClient;
     $c->appkey = '12497914';
@@ -11,6 +11,3 @@
      $req->setSellerNick("奥利奥官方旗舰店");
      $req->setBuyerNick("101NufynDYcbjf2cFQDd62j8M/mjtyz6RoxQ2OL1c0e/Bc=");
      var_dump($c->execute($req));
-
-
-?>
