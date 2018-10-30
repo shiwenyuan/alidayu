@@ -1,9 +1,9 @@
 <?php
 
 require_once __DIR__."/../vendor/autoload.php";
-use PHPUnit\Framework\TestCase;
 
-class TestSend extends TestCase{
+class TestSend
+{
 
     public function testSendSms()
     {
@@ -20,3 +20,4 @@ class TestSend extends TestCase{
         var_dump($ret);
     }
 }
+(new TestSend)->testSendSms();

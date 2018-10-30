@@ -12,6 +12,5 @@
         "classmap": ["src/"]
       },
     "require": {
-        "phpunit/phpunit": "^7.4"
     }
 }
