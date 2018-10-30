@@ -9,9 +9,9 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-          "ALiDaYu\\": "./"
-        }
+        "classmap": ["src/"]
       },
-    "require": {}
+    "require": {
+        "phpunit/phpunit": "^7.4"
+    }
 }
